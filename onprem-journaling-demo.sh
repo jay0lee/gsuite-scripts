@@ -10,7 +10,7 @@ else
   touch /root/.startup-script-ran
 fi
 
-drive_url="https://3b8fad79b5c747b79cb1b61b95c7899523af31b5.googledrive.com/host/0B0YvUuHHn3MnTFM4azVHSm9waFE"
+drive_url="https://raw.githubusercontent.com/jay0lee/gsuite-scripts/master"
 metadata_url="http://metadata.google.internal/computeMetadata/v1/instance/attributes/"
 mailhost=`curl $metadata_url/mailhost -H "Metadata-Flavor: Google"`
 userpass=`curl $metadata_url/userpass -H "Metadata-Flavor: Google"`
